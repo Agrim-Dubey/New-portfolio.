@@ -41,22 +41,46 @@ li a{
 }
 .aboutme{
     height: 50vh;
+    font-size:xx-large;
     text-align: center;
         color:white;
 }
 #myskills{
+     font-size:xx-large;
     height: 50vh;
     text-align: center;
     color:white;
 }
 #mycontact{
+     font-size:xx-large;
     text-align: center;
     color:white;
 }
 .intro{
-    height: 100vh;
+    transition: opacity 0.3s ease;
+    height: 50vh;
     padding-top:150px;
     color:white;
-    font-size:xx-large;
+    font-size:x-large;
     text-align: center;
+}
+.images{
+    padding: 10px 30px;
+}
+.images:hover{
+    transform : scale(1.2);
+}
+.educ{
+    font-size:larger;
+    color:white
+
+}
+#education{
+    height: 70vh;
+    color:white;
+    text-align: center;
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+    font-size: xx-large;
 }
