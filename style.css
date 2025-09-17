@@ -17,6 +17,8 @@ body::before {
 .navbar{
     background-color:rgb(3, 3, 3,0);
     font-family : calibri;
+    position:fixed;
+
 }
 .navdiv{
     display: flex; align-items: center; justify-content: space-between;
@@ -38,7 +40,7 @@ li a{
     text-decoration: none;
 }
 .aboutme{
-    height: 100vh;
+    height: 50vh;
     text-align: center;
         color:white;
 }
@@ -50,4 +52,11 @@ li a{
 #mycontact{
     text-align: center;
     color:white;
+}
+.intro{
+    height: 100vh;
+    padding-top:150px;
+    color:white;
+    font-size:xx-large;
+    text-align: center;
 }
