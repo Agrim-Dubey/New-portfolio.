@@ -14,14 +14,26 @@ body::before {
   height: 100%;
   background-color: rgba(0, 0, 0, 0.8); 
   z-index: -1;}
-.navbar{
-    background-color:rgb(3, 3, 3,0);
-    font-family : calibri;
-    position:fixed;
-
+.navbar {
+  background-color: transparent;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  display: flex;
+  justify-content: center; 
+  padding: 10px 20px;
+  z-index: 1000;
+  box-sizing: border-box;
+  border-bottom: 1px solid rgba(255, 0, 0, 0.3);
 }
-.navdiv{
-    display: flex; align-items: center; justify-content: space-between;
+
+.navdiv {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 90%;
+  max-width: 1200px;
 }
 .title a{ text-decoration: none;
     padding-left:20px;
@@ -79,8 +91,9 @@ li a{
     height: 70vh;
     color:white;
     text-align: center;
-    /* display: flex;
-    justify-content: center;
-    align-items: center; */
     font-size: xx-large;
+}
+.contact-form textarea {
+  resize: vertical;
+  min-height: 100px;
 }
