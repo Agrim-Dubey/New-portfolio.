@@ -5,7 +5,7 @@ background-color:blue;
 border-radius:50%;
 border:8px solid black;
 overflow: hidden;
-margin : 0 auto;
+
 
 }
 #Profileimage{
@@ -15,7 +15,14 @@ margin : 0 auto;
 }
 .info{
     background-color: black;
+    color: white;
     height: 200px;
     display: flex;
     justify-content: center;
+}
+#heading{
+    color:aquamarine;
+    text-align: center;
+    font-family:sans-serif;
+    background-color:black;
 }
