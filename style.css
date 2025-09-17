@@ -4,16 +4,16 @@ body {
   position: relative;
 }
 
-/* Add overlay on top of background */
+
 body::before {
   content: "";
-  position: fixed; /* so it doesn't scroll */
+  position: fixed; 
   top: 0;
   left: 0;
   width: 100%;
   height: 100%;
-  background-color: rgba(0, 0, 0, 0.8); /* adjust 0.5 to control darkness */
-  z-index: -1; /* place it behind page content */}
+  background-color: rgba(0, 0, 0, 0.8); 
+  z-index: -1;}
 .navbar{
     background-color:rgb(3, 3, 3,0);
     font-family : calibri;
@@ -38,11 +38,16 @@ li a{
     text-decoration: none;
 }
 .aboutme{
+    height: 100vh;
+    text-align: center;
         color:white;
 }
 #myskills{
+    height: 50vh;
+    text-align: center;
     color:white;
 }
 #mycontact{
+    text-align: center;
     color:white;
 }
