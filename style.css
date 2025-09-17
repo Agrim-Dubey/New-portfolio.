@@ -1,40 +1,31 @@
-.Imageholder{
-width: 200px;
-height:200px;
-background-color:blue;
-border-radius:50%;
-border:8px solid black;
-overflow: hidden;
+body {
+  background: url('background2.jpeg');
+  background-repeat: no-repeat;       
+  background-size: cover;             
+  background-position: center center; 
+  background-attachment:scroll;       
+}
+.navbar{
+    background-color:rgb(3, 3, 3);
+    font-family : calibri;
+}
+.navdiv{
+    display: flex; align-items: center; justify-content: space-between;
+}
+.navbar.title{
+    font-size: 35px;
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    color: rgb(255,000,000);
+}
+li{
+    list-style: none; display: inline-block;
+}
+li a{
+    color : red;
+    font-size : 20px;
+    font-weight:bold;
+    margin-right:20px;
+    text-decoration: none;
+}
 
-
-}
-#Profileimage{
-    height:100%;
-    width:100%;
-    object-fit: cover;
-}
-.info{
-    background-color: black;
-    color: white;
-    height: 200px;
-    display: flex;
-    justify-content: center;
-}
-#heading{
-    color:aquamarine;
-    text-align: center;
-    font-family:sans-serif;
-    background-color:black;
-}
-.aboutme{
-    background-color: black;
-    color:white;
-}
-#myskills{
-    background-color: black;
-    color:white;
-}
-#mycontact{
-    background-color: black;
-    color:white;
-}
