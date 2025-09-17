@@ -25,7 +25,7 @@
     <section class="intro">
         <span style="font-size:xx-large;">"Hello,</span>myself Agrim Dubey, an aspiring full-stack web developer, passionate abbout building clean,,user-friendly and modern websites. Currently learning HTML,CSS and JavaScript andd trying to gain experience by building projects."
     </section>
-    <section class ="aboutme">
+    <section id = "aboutme">
         <div class >
             <h2><u><strong>About Me:-</strong></u></h2>
             <p>I am a sophomore at Ajay Kumar Garg Engineering College and an aspiring full-stack developer. I like to play chess, solve competetive programming ques,talk to other people, watch anime and many more.</p>
@@ -48,18 +48,32 @@
         <img src="C++.png" alt="C++ logo" width ="80px" class="images">
         <img src="pyhton.jpeg" alt="python logo" width ="80px" class="images"></div>
     </section>
-    <section id="mycontact">
-        <h2><u><strong>Contact :-</strong></u></h2>
-        <form action="POST">
-        <label for="name">Your Name : </label>
-        <input type="text" id="name" placeholder="Enter your name" required maxlength="25"> <br>
-        <label for="email">Your E-mail : </label>
-        <input type="email" placeholder="abcdgmail.com" id="email" required> <br>
-        <label for="message">Enter your message below : </label><br>
-        <textarea name="message" id="message" placeholder="Enter you message here...."></textarea> <br>
-        <input type="submit" style="border-radius: 10%">
-        </form>
-    </section>
+  <section id="mycontact">
+    <h2><u><strong>Contact :-</strong></u></h2> 
+
+    <div class="contact-container">
+        <div class="directmessage">
+            <h3>Contact directly</h3>
+            <p><strong>Phone:</strong> 90263436XX</p>
+            <p><strong>Email:</strong> agrimdubey37@gmail.com</p>
+        </div>
+        <div class="messageform">
+            <h3>Or send a message</h3>
+            <form action="POST">
+                <label for="name">Your Name:</label><br>
+                <input type="text" id="name" placeholder="Enter your name" required maxlength="25"><br>
+
+                <label for="email">Your E-mail:</label><br>
+                <input type="email" id="email" placeholder="abcd@gmail.com" required><br>
+
+                <label for="message">Message:</label><br>
+                <textarea name="message" id="message" placeholder="Enter your message here..." required></textarea><br>
+
+                <input type="submit" value="Send Message" class="submit-button">
+            </form>
+        </div>
+    </div>
+</section>
     <hr><hr>
     <footer>
     
