@@ -3,8 +3,6 @@ body {
   background-size: cover;
   position: relative;
 }
-
-
 body::before {
   content: "";
   position: fixed; 
@@ -15,17 +13,18 @@ body::before {
   background-color: rgba(0, 0, 0, 0.6); 
   z-index: -1;}
 .navbar {
-  background-color: transparent;
+  background-color: black;
   position: fixed;
   top: 0;
   left: 0;
   width: 100%;
   display: flex;
   justify-content: center; 
-  padding: 10px 20px;
+  padding: 10px 0px;
   z-index: 1000;
   box-sizing: border-box;
-  border-bottom: 1px solid rgba(255, 0, 0, 0.3);
+  border-bottom: 10px solid rgba(255, 255, 255, 0.9);
+  border-top: 10px solid rgba(255, 255, 255, 0.9);
 }
 
 .navdiv {
@@ -35,10 +34,10 @@ body::before {
   width: 90%;
   max-width: 1200px;
 }
-.title a{ text-decoration: none;
-    padding-left:20px;
+.title a{ 
+  text-decoration: none;
     font-size: 35px;
-    font-weight: 700;
+    font-weight: 900;
     color: rgb(255,000,000);
 }
 li{
@@ -74,12 +73,12 @@ li a{
     padding-top: 20px;
 }
 .intro{
-    transition: opacity 0.3s ease;
     height: 50vh;
     padding-top:150px;
     color:white;
     font-size:x-large;
     text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 .images{
     padding: 10px 30px;
@@ -87,36 +86,35 @@ li a{
 .images:hover{
     transform : scale(1.2);
 }
-.educ{
-    font-size:larger;
-    color:white
+#education{
+ display:flex;
+ color:white;
 
 }
-#education{
-    height: 70vh;
-    color:white;
-    text-align: center;
-    font-size: xx-large;
+.educ h2{text-align: center;}
+.educ{
+   border: 2px solid  black;
+   border-radius: 10px;
 }
 .messageform {
     flex: 1;
     background-color: rgba(255, 255, 255, 0.05);
-    border: 2px solid #4da6ff;
+    border: 2px solid #010204;
     border-radius: 10px;
     padding: 20px;
     font-size: large;
     color: white;
-    box-shadow: 0 0 10px rgba(77, 166, 255, 0.5);
+    box-shadow: 0 0 10px rgba(1, 4, 7, 0.5);
 }
 .directmessage {
     flex: 1;
     background-color: rgba(255, 255, 255, 0.05);
-    border: 2px solid #4da6ff;
+    border: 2px solid #050709;
     border-radius: 10px;
     padding: 20px;
     color: #ffffff;
     font-size: large;
-    box-shadow: 0 0 10px rgba(77, 166, 255, 0.5)}
+    box-shadow: 0 0 10px rgba(1, 3, 5, 0.5)}
 .contact-container {
     display: flex;
     justify-content: space-between;
@@ -125,6 +123,11 @@ li a{
     width: 80%;
     max-width: 1000px;
     margin-top: 20px;
+}
+#message{
+  resize:none;
+  height:100px;
+  width:400px;
 }
 @media (max-width: 1024px) {
   .navdiv {
@@ -196,4 +199,3 @@ li a{
 .educ{
     font-size: large;
 }
- 
